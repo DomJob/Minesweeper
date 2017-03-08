@@ -96,6 +96,7 @@ function reveal(x, y, recurse=true){
             $cell.addClass("bomb");
             if(recurse){
                 alert("You lost");
+                location.reload();
                 disableAllClicks = true;
             }
             
